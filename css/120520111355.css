@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+#subnav{background:#f2465e;}
+.subnav{padding:5px 0 0 0;margin:0;list-style-type:none;}
+.subnav li{display:inline;}
+.subnav li a{padding:5px 10px;text-decoration:none;color:white;font-size:11px;font-weight:bold;display:inline-block;text-transform:uppercase;}
+.subnav li a:hover{background:#ffeff1;color:#c8374c;}
+.subnav li a.selected{background:#feedef;color:#c8374c;}
+.profile-page{background:#feedef;padding:10px;}
+.profile-page .tabular-data{border-top:0;width:690px;}
+.profile-page .tabular-data tbody td{border-bottom:1px solid #fde6e6;padding:10px;}
+.profile-page .label{font-size:11px;font-weight:bold;width:140px;}
+.profile-page tbody td{font-size:11px;color:#9c3d3d;}
+.profile-page tfoot button{padding:4px 6px;}
+.edit-profile-basic{text-decoration:none;text-transform:uppercase;color:#333;}
+.edit-profile-basic:hover{text-decoration:underline;}
+
+.photos{border-top:1px solid #fdd;margin:10px 0 0 0;}
+.photos ul{list-style-type:none;padding:0;margin:0;}
+.photos ul li{display:inline-block;margin:5px 0px 5px 10px;}
+.photos ul li img{width:162px;height:162px;}
+.photos ul li .selectedImg{width:16px;height:16px;border:1px solid gray;margin:-16px 0 0 0px;}
+.photos:after{clear:both;content:"";display:block;}

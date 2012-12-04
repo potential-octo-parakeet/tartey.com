@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{font-size:11px;font-family:Tahoma, Arial, "Lucida Grande", Verdana;margin:0;background:#fefefe;color:black;direction:ltr;}
+button{cursor:pointer;}
+h1,h2{font-family:Tahoma, Arial, "Lucida Grande", Verdana;}
+#header{background:url(../images/header_back_pink_shade.png);height:89px;}
+#header_wrapper{width:980px;margin:auto;}
+#logo{float:left;}
+#logo a{background:url(../images/logo_198x71.png);width:198px;height:71px;display:block;}

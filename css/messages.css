@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+.inbox-table{width:710px;}
+.data-img{width:38px;padding:5px 10px;vertical-align:top;}
+.data-img .img{height:38px;width:38px;border:0;}
+.data-content{width:450px;}
+.data-content .username{text-decoration:none;color:#333;font-weight:bold;display:block;}
+.data-content .username:hover{text-decoration:underline;}
+.data-content .content-msg{padding:5px 0 0 0;color:#888;display:block;text-decoration:none;}
+.data-time{text-align:right;padding:5px 10px;vertical-align:top;}
+.data-time .timestamp{color:#aaa;position:relative;margin:0 30px 0 0;}
+.data-time .selectedMsg{width:14px;height:14px;border:1px solid #aaa;margin:1px 0 0 -15px;padding:0;position:absolute;}
+table tbody tr:hover{background:white}
+
+input,textarea{font-family:'Lucida Grande',Tahoma,Arial,Verdana;}
+#receiver{width:200px;padding:2px;border:1px solid gray;outline:none;font-size:12px;}
+#txtmsg{width:670px;resize:none;height:180px;border:1px solid gray;outline:none;padding:5px;}
+#suggest{position:absolute;border:1px solid gray;width:204px;margin:-2px 0 0 0;background:white;padding:0;list-style-type:none;display:none;}
+#suggest li{padding:2px;}
+#suggest li:after{clear:both;content:'';display:block;}
+#suggest li:hover{background:#eee;cursor:pointer;}
+#suggest .img32{width:32px;height:32px;border:0;float:left;}
+#suggest .details{margin:0 0 0 5px;float:left;width:160px;}
+#suggest .details .username{font-weight:bold;font-size:11px;word-wrap:break-word;}
+#response_msg{margin:0 0 0 10px;padding:5px;display:none;font-weight:bold;font-size:12px;}

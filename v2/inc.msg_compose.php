@@ -1,0 +1,3 @@
+<div class="wrapper profile-page">
+	This module will be available soon...
+</div>

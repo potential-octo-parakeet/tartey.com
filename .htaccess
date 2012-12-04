@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^profile/([0-9]{1,11})$ profile.php?id=$1
+RewriteRule ^avatar.jpg$ avatar.php [NC]
+RewriteRule ^myavatar.jpg$ avatar.php [NC]
+RewriteRule ^iptester.png$ iptester.php [NC]

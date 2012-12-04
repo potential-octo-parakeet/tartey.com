@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{font-size:11px;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;margin:0;background:url(../images/home_bg.png) repeat-x;direction:ltr;color:white;}
+h1,h2,h3,h4,h5,h6,input,select,table,label,p{margin:0;padding:0;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;}
+input,select{padding:5px;border:1px solid #abadb3;}
+label{font-size:12px;color:gray;}
+a{text-decoration:none;color:#333;}
+a:hover{text-decoration:underline;}
+button{cursor:pointer;}
+.label{font-size:13px;color:gray;position:absolute;text-shadow:0 1px 0 #fefefe;}
+.right{float:right;}
+.left{float:left;}
+#global{width:980px;margin:auto;background:url(../images/home_map.png) center no-repeat;height:495px;}
+#header{width:980px;margin:auto;}
+#logo{float:left;margin:10px 0 0 0;}
+#logo a{display:block;background:url(../images/logo.png);width:336px;height:120px;text-indent:-999999px;}
+#header:after{display:block;clear:both;content:"";visibility:hidden;}
+#form{float:right;margin:60px 0 0 0;}
+#form input{border-radius:6px;moz-border-radius:6px;outline:none;width:150px;background:#fcdde2;}
+#form input:focus{background:#fefefe;}
+#form button{background:url(../images/login.png);border:0;width:64px;height:28px;text-indent:-999999px;}
+#form a{color:white;}
+#form .label{margin:6px 0 0 -155px;}
+
+.version{position:absolute;margin:-5px 0 0 145px;font-size:28px;font-weight:bold;color:#bd5564;}
+.register_form{margin:20px auto;float:right;}
+.register_form .heading-text{border-bottom:1px solid #b84253;padding:0 0 10px 0;}
+.register_form .heading-text h2{font-size:16px;padding:0 0 10px 0;}
+.register_form .heading-text h3{font-size:12px;font-weight:normal;}
+.register_form .tabularize{margin:10px 0 0 0;}
+.register_form input{width:250px;padding:6px 4px 6px 6px;border-radius:6px;moz-border-radius:6px;outline:none;background:#fcdde2;}
+.register_form input:focus{background:#fefefe;}
+.register_form select{padding:6px 4px 6px 2px;border-radius:6px;moz-border-radius:6px;background:#fcdde2;outline:none;color:gray;text-shadow:0 1px 0 #fefefe;}
+.register_form select:focus{background:#fefefe;color:black;}
+.register_form button{background:url(../images/button_signup.png);width:91px;height:37px;border:0;text-indent:-999999px;margin:10px 0 0 0;}
+.register_form button:hover{background-position:0 37px;}
+.register_form .throbber_circle{font-size:12px;margin:0 0 0 10px;display:none;color:#fefefe;}
+.register_form .label{margin:6px 0 0 -255px;}
+.error{text-align:center;position:absolute;background:#c05f6d;border:3px solid #000;padding:5px 10px;width:240px;z-index:10;border-radius:10px;font-weight:bold;margin:26px 0 0 0;display:none;}
+
+#content{float:left;margin:20px 0 0 0;width:500px;}
+#content h2{font-size:24px;font-weight:normal;text-shadow:0 1px 0 rgba(0, 0, 0, 0.6),0 0 6px rgba(143, 181, 200, 1),0 0 30px rgba(143, 181, 200, .7);}
+#content p{font-size:15px;}
+#content h3{font-size:15px;}
+#content ul{list-style-type:decimal;padding:0 0 0 20px;margin:10px 0 0 0;}
+#content ul li{font-size:14px;font-weight:bold;padding:0 0 10px 0;line-height:18px;}
+#content ul li span{display:block;font-size:12px;font-weight:normal;}
+#content a{color:white;}
+
+#subContent{width:980px;margin:auto;background:#fdfdfd;color:#999;}
+#subContent a:hover{text-decoration:none;}
+#subContent h2{padding:10px 0;color:#777;}
+#subContent h3{color:#999;}
+#subContent p{color:#999;}
+#subContent .img50{width:50px;height:50px;border:0;}
+#subContent .desc{margin:0 0 0 10px;}
+#subContent:after{clear:both;content:"";display:block;}
+.userlist{width:600px;display:table-cell;vertical-align:middle;height:70px;margin:0 0 0 50px;}
+.userlist h2{margin:0 0 0 7px;font-size:12px;}
+.grid-view{list-style-type:none;padding:0;margin:0;}
+.grid-view li{display:inline-block;width:50px;padding:0 0 0 7px;}
+.grid-view li a{text-decoration:none;color:white;font-size:9px;}
+.grid-view li a:hover{text-decoration:underline;}
+.grid-view li a:hover .name{text-decoration:underline;}
+.grid-view li .name{text-align:center;padding-top:2px;word-wrap:break-word;color:#333;}
+
+#footer{margin:20px auto 30px;width:980px;border-top:1px solid #B3B3B3;padding:5px 0 0 0;}
+#footer:after{clear:both;content:"";height:0;display:block;visibility:hidden;}
+#footer p{font-size:11px;color:#737373;}
+#footer a{color:#737373;text-decoration:none;}
+#footer a:hover{text-decoration:underline;}
